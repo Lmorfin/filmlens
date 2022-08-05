@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/filmlens/static/css/main.e73a06aa.css",
+    "main.js": "/filmlens/static/js/main.6b0c0866.js",
+    "index.html": "/filmlens/index.html",
+    "main.e73a06aa.css.map": "/filmlens/static/css/main.e73a06aa.css.map",
+    "main.6b0c0866.js.map": "/filmlens/static/js/main.6b0c0866.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e73a06aa.css",
+    "static/js/main.6b0c0866.js"
+  ]
+}
