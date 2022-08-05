@@ -1,4 +1,6 @@
 import React from "react";
+import { Outlet, Link } from "react-router-dom";
+import SearchMovie from "./SearchMovie";
 import "../styles/Header.css";
 
 const Header = () => {
@@ -18,13 +20,15 @@ const Header = () => {
           <div className="header__nav_wrapper">
             <div className="header__nav_list">
               <div className="nav__items">
-                <a href="#Movies">Movies</a>
-                <a href="#Tvshows">TVshows</a>
-                <a href="#People">People</a>
+                <a href="/">Movies</a>
+                <a href="/tvShows">TvShows</a>
+                <a href="#People">People</a> 
               </div>
             </div>
           </div>
         </div>
+        
+
       </div>
     </div>
   );

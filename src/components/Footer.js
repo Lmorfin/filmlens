@@ -1,10 +1,16 @@
 import React from "react";
 import "../styles/Footer.css";
 const Footer = () => {
-    return(
-        <footer>
-            Created by Luis Morfin
-        </footer>
+    return (
+      <footer>
+        Created by Luis Morfin
+        <div className="img-container">
+          <img
+            id="img"
+            src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg"
+          />
+        </div>
+      </footer>
     );
 };
 
